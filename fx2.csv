@@ -1,0 +1,49 @@
+; fx2_signal, connected_to
+; slave fifo group
+FD0, fpga.V15
+FD1, fpga.T14
+FD2, fpga.V14
+FD3, fpga.T12
+FD4, fpga.V12
+FD5, fpga.U11
+FD6, fpga.V11
+FD7, fpga.P12
+FD8, fpga.V5
+FD9, fpga.U5
+FD10, fpga.V4
+FD11, fpga.T4
+FD12, fpga.T7
+FD13, fpga.P6
+FD14, fpga.T5
+FD15, fpga.R5
+IFCLK, fpga.U15
+SLRD, fpga.R3
+SLWR, fpga.T3
+SLOE, fpga.U11
+FIFOADDR0, fpga.V7
+FIFOADDR1, fpga.U7
+PKTEND, fpga.V6
+SLCS#, fpga.T6
+FLAGA, fpga.T11
+FLAGB, fpga.R11
+FLAGC, fpga.P11
+; SPI flash/FPGA config
+PC0, slfash.SELn, fpga
+PC1, sflash.CLK, fpga
+PC2, sflash.DIN, fpga
+PC3, sflash.DOUT, fpga
+PC4, sflash.WPn
+PC5, fpga.PROGRAM_B_2
+; misc
+TxD0, fpga.U13		n/a
+RxD0, fpga.V13		n/a
+CLKOUT, fpga.U10	GCLK1
+PA0, fpga.V9		RST
+PA1, fpga.T9		n/a
+PA3, fpga.U8		n/a
+PE0, fpga.R8		n/a
+PE1, fpga.P8		n/a
+PE2, fpga.P7		n/a
+PE3, fpga.R7		n/a
+PE5, LED_R
+PE6, LED_G

@@ -1,0 +1,60 @@
+some fpga pins going to U5 (MCB3):
+K5	CAS#
+L5	RAS#
+E3	WE#
+J7	A0
+J6	A1
+H5	A2
+L7	A3
+F3	A4
+H4	A5
+H3	A6
+H6	A7
+D2	A8
+D1	A9
+F4	A10
+D3	A11
+G6	A12
+F2	BA0
+F1	BA1
+E1	BA2
+F6	?
+
+
+K6 ODT - R78=4K7 - GND	U5.ODT
+? - R77=1K - GND	U5.CS#		возможно не подключён к FPGA
+H7 CKE - R79=4K7 - GND	U5.CKE
+G1 CK# - R85=100 - CK#
+? - R57=4K7 - VCC
+? - R60=4K7 - GND
+
+some fpga pins going to U6 (MCB1):
+FPGA - typical MIG assignment
+K16	CAS#
+K15	RAS#
+K12	WE#
+H15	A0
+H16	A1
+F18	A2
+J13	A3
+E18	A4
+L12	A5
+L13	A6
+F17	A7
+H12	A8
+G13	A9
+E16	A10
+C17	?
+D18	A12
+H13	BA0
+H14	BA1
+K13	BA2
+
+K14 - R82=4K7 - GND	U6.ODT
+? - R83=1K - GND	U6.CS#
+D17 - R81=4K7 - GND	U6.CKE
+G18 - R86=100 - CK# 
+? - R58=4K7 - VCC
+? - R59=4K7 - GND
+
+These are two MCBs (Memory Controller Block) ports of FPGA, must be some typical connection
