@@ -1,4 +1,4 @@
-; signal, spartan_pin, spartan_signal
+signal, fpga_pin, fpga_signal
 ACLK, B2, IO_L2P_0
 A0, B3, IO_L4P_0
 A1, B4, IO_L5P_0
