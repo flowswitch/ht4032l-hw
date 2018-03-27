@@ -1,5 +1,4 @@
-; u13_pin, fpga_pin
-; U13 DAC122S085CIMM
+u13_pin, fpga_pin
 DIN, N7
 DSYN#, N6
 DCLK, N5
